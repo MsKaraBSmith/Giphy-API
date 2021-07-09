@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today I Feel:</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+ <body>
+    <div class="wrapper">
+        <div class="header">
+            <h1 class="header" id="page-title">How are you feeling today?</h1>
+            <h2 class="header" id="subtitle">Let's find a giphy to go with that feeling!</h2>
+            <p class="header" id="directions">
+                Please choose an emotion from the list below and enter it into the search bar. Find the giphy that matches your mood!
+            </p>
+        </div>
+    
+
+        <div class="image-emotions">
+            <img width='400' height='400' src="./assetsAPI2/pexels-andrea-piacquadio-3812743.jpg" alt="" class="image-emotions" id="emotion-pic">
+        </div>
+
+        <div class="search">
+            <form action="">
+                <p>
+                <label for="feeling">Today I feel: </label>
+                <input type="text" class="feeling" id="feeling" required>
+                </p>
+                <p>
+                    <button class="submit" id="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+
+        <div class="results">
+            
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+</body>
+</html>
